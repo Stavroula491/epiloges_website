@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Epiloges</title>
+    </head>
+    <body>
+            <!-- <div class="dropdown">
+                <img class="logo-img" src="./images/navbar-logo.png" alt="epiloges-logo" title="EPILOGES">
+                <button onclick="myFunction()" class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+                Μενου
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Αρχική</a>
+                    <a href="#">Μπάνιο</a>
+                    <a href="#">Κουζίνα</a>
+                    <a href="#">Παραγγελία</a>
+                    <a href="#">Δίκτυο Συνεργατών</a>
+                </div>
+            </div> -->
+        
+        <!-- Navbar -->
+        <div class="navbar">
+            <img class="logo-img" src="./images/navbar-logo.png" alt="epiloges-logo" title="EPILOGES">
+
+            <ul class = navbar-list>
+                <li class="navbar-item-text">
+                    <a class="navbar-link" href="index.html">Αρχική</a>
+                </li>
+                <li class="navbar-item-text">
+                    <a class="navbar-link" href="bath.html">Μπάνιο</a>
+                </li>
+                <li class="navbar-item-text">
+                    Κουζίνα
+                </li>
+                <li class="navbar-item-text">
+                    Παραγγελία
+                </li>
+                <li class="navbar-item-text">
+                    Δίκτυο Συνεργατών
+                </li>
+            </ul>
+
+            <a class="navbar-download" href="./catalogue/sample-local-pdf.pdf" download>
+            <button class="navbar-btn" id="download-cat">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                </svg>
+                Κατάλογος Επιλογές
+            </button>
+            </a>
+        </div>
+         <!-- End of navbar -->
+        
+        <div class="main-product-view">
+            <div class="company-detail">
+                <p><span class="company-detail-item">Στοιχεία Εταιρίας</span>: Δ. Καραγκούνης και ΣΙΑ ΟΕ, 800426756</p>
+            </div>
+
+            <!-- src="react-bath/dist/index.html" -->
+
+            <iframe src="react-bath/dist/index.html" width="100%" 
+            height="1000px"
+            style="border: none;">
+            </iframe>
+        </div>
+
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
